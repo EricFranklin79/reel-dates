@@ -6,7 +6,9 @@ A React app that connects a calendar date to a movie through its plot, setting, 
 
 The project is configured for the public GitHub repository `EricFranklin79/reel-dates` and free GitHub Pages hosting at `https://ericfranklin79.github.io/reel-dates/` after the first successful deployment.
 
-The workflow in `.github/workflows/pages.yml` checks lint, enforces 95% coverage per runtime file, and builds the app on pushes and pull requests. Successful pushes to `main` publish the `dist` artifact through GitHub Pages. Select **Settings → Pages → Source → GitHub Actions** in the GitHub repository to enable this deployment method.
+The workflow in `.github/workflows/pr-checks.yml` checks formatting, lint, tests with at least 95% coverage per runtime file, and the production build when a pull request is opened, updated, or reopened. Run `npm run format:check` locally to check formatting without changing files.
+
+The workflow in `.github/workflows/pages.yml` runs the same checks on pushes to `main` before publishing the `dist` artifact through GitHub Pages. Select **Settings → Pages → Source → GitHub Actions** in the GitHub repository to enable this deployment method.
 
 Local development uses `/`; the deployment workflow sets `VITE_BASE_PATH=/reel-dates/` so production assets load correctly under the repository URL. To preview that build locally:
 

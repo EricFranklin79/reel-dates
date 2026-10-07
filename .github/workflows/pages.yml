@@ -3,8 +3,6 @@ name: Check and deploy Reel Dates
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -24,18 +22,17 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - run: npm run format:check
       - run: npm run lint
       - run: npm run test:coverage
       - run: npm run build
         env:
           VITE_BASE_PATH: /reel-dates/
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5
-        if: github.event_name != 'pull_request'
         with:
           path: dist
 
   deploy:
-    if: github.event_name != 'pull_request'
     needs: check
     runs-on: ubuntu-latest
     permissions:
