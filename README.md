@@ -48,7 +48,7 @@ The header offers Light, Dark, Halloween, and Winter themes. Your choice is save
 
 ## Stack
 
-- React and TypeScript
+- React and TypeScript, with React Compiler for automatic memoization
 - Vite, Mantine UI, and Tailwind CSS
 - Vitest and React Testing Library for unit and component tests
 - Playwright for browser tests
