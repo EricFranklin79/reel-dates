@@ -8,12 +8,12 @@
 }
 .instructions-drawer-title {
   font-family: "Manrope", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
 }
 .instructions-content {
   padding: 24px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.7;
   color: var(--muted);
 }
@@ -25,13 +25,13 @@
   margin: 18px auto 0;
 }
 .instructions-content .eyebrow {
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 1.4px;
 }
 .instructions-content h3 {
   font-family: "Manrope", sans-serif;
   color: var(--accent);
-  font-size: 17px;
+  font-size: 20px;
   margin: 6px 0 8px;
 }
 .instructions-content p {
@@ -42,5 +42,5 @@
   padding-left: 20px;
 }
 .instructions-content .instructions-note {
-  font-size: 10px;
+  font-size: 13px;
 }

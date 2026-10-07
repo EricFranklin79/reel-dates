@@ -40,7 +40,7 @@ h1 span {
 }
 .date-field label {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.7px;
   color: var(--muted);
   font-weight: 700;
@@ -71,7 +71,7 @@ h1 span {
   margin-bottom: 12px;
 }
 .try-dates > span {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin-right: 6px;
 }
@@ -80,13 +80,13 @@ h1 span {
   background: transparent;
   padding: 5px 10px;
   border-radius: 20px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .try-dates button:hover {
   background: var(--hover);
 }
 .hero > p.matching-note {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .help-trigger {
@@ -95,12 +95,12 @@ h1 span {
   margin: 0 auto 12px;
   padding: 0 8px;
   color: var(--accent);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 .error {
   color: var(--error) !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   margin-bottom: 12px !important;
 }
 @media (min-width: 1500px) {
@@ -114,7 +114,7 @@ h1 span {
     padding: 32px 0 28px;
   }
   .hero > .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1.6px;
   }
   h1 {
@@ -139,7 +139,7 @@ h1 span {
   }
   .find-button {
     padding: 15px 12px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .find-button span {
     padding-left: 5px;
@@ -153,14 +153,14 @@ h1 span {
     margin: 0 0 4px;
   }
   .try-dates button {
-    font-size: 9px;
+    font-size: 11px;
   }
   .hero > p.matching-note {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 .date-field .date-label {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.7px;
   color: var(--muted);
   font-weight: 700;
@@ -172,12 +172,22 @@ h1 span {
   padding: 0 25px 0 0;
   height: 29px;
   min-height: 29px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .find-button {
   height: 52px;
 }
 .try-dates button {
-  height: 24px;
+  min-height: 28px;
   font-weight: 400;
+}
+@media (max-width: 420px) {
+  .date-form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+  .find-button {
+    height: 44px;
+  }
 }

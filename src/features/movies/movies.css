@@ -4,7 +4,7 @@
   padding-top: 24px;
 }
 .result-status {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 10px 0 16px;
 }
@@ -21,7 +21,7 @@
   padding: 28px 42px;
 }
 .movie-content .eyebrow {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.6px;
   display: flex;
   align-items: center;
@@ -41,14 +41,14 @@
   margin: 12px 0 8px;
 }
 .movie-meta {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 .synopsis {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
   color: var(--muted);
   margin: 14px 0 18px;
@@ -56,7 +56,7 @@
 }
 .film-reference {
   margin: 10px 0 16px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--accent);
 }
 .film-reference a {
@@ -76,7 +76,7 @@
   margin-bottom: 10px;
 }
 .connection-heading h4 {
-  font-size: 11px;
+  font-size: 13px;
   margin: 0;
   font-weight: 600;
 }
@@ -86,7 +86,7 @@
 }
 .badge {
   margin-left: auto;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.4px;
   background: var(--badge);
   color: var(--accent);
@@ -94,21 +94,21 @@
   border-radius: 4px;
 }
 .connection > strong {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
 }
 .connection p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   color: var(--muted);
   margin: 8px 0 14px;
 }
 .connection p.story-year {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .connection a {
-  font-size: 10px;
+  font-size: 12px;
   text-underline-offset: 4px;
   color: var(--accent);
 }
@@ -137,7 +137,7 @@
 }
 .empty-state p {
   max-width: 670px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
   color: var(--muted);
   margin: 0;
@@ -166,7 +166,7 @@
     padding-top: 20px;
   }
   .result-status {
-    font-size: 10px;
+    font-size: 12px;
   }
   .movie-card {
     grid-template-columns: 1fr;
@@ -181,7 +181,7 @@
     padding: 17px;
   }
   .movie-meta {
-    font-size: 10px;
+    font-size: 12px;
   }
   .empty-state {
     padding: 26px;
@@ -195,7 +195,7 @@
     font-size: 19px;
   }
   .empty-state p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -224,7 +224,7 @@
   font-weight: 500;
 }
 .connection .evidence-label {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--accent);
   margin: 10px 0;
 }
