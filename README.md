@@ -11,7 +11,6 @@ The app runs entirely in the browser. No API keys, backend, or login are require
 Use Node.js 22.18 or newer and npm.
 
 ```sh
-cd reel-dates
 npm ci
 npm start
 ```
