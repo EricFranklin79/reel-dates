@@ -64,7 +64,7 @@ test("search shortcuts, form submission, scrolling, and help work together", asy
 test("theme changes persist, snow and spotlights can pause and resume, and Today selects the local day", async () => {
   const user = userEvent.setup();
   renderApp();
-  for (const name of ["Dark", "Halloween", "Christmas", "Light", "Christmas"]) {
+  for (const name of ["Dark", "Halloween", "Winter", "Light", "Winter"]) {
     await user.click(screen.getByRole("button", { name }));
     expect(localStorage.getItem("reel-dates-theme")).toBe(name.toLowerCase());
   }
@@ -247,6 +247,17 @@ test("saved themes load, unknown themes fall back, and storage failures do not b
   );
   fireEvent.click(screen.getByRole("button", { name: "Dark" }));
   expect(document.documentElement.dataset.theme).toBe("dark");
+});
+
+test("a saved Christmas preference migrates to Winter", () => {
+  localStorage.setItem("reel-dates-theme", "christmas");
+  renderApp();
+  expect(
+    screen.getByRole("button", { name: "Winter" }).getAttribute("aria-pressed"),
+  ).toBe("true");
+  expect(localStorage.getItem("reel-dates-theme")).toBe("winter");
+  expect(document.documentElement.dataset.theme).toBe("winter");
+  expect(document.querySelector(".snowfall")).toBeTruthy();
 });
 
 test("the theme hook reports a missing provider", () => {

@@ -11,13 +11,12 @@ The app runs entirely in the browser. No API keys, backend, or login are require
 Use Node.js 22.18 or newer and npm.
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/reel-dates.git
 cd reel-dates
 npm ci
 npm start
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username after forking. Open the URL printed by Vite, usually http://127.0.0.1:5173.
+Open the URL printed by Vite, usually http://127.0.0.1:5173.
 
 Useful commands:
 
@@ -46,7 +45,7 @@ It's all in the story: a day in the plot, a date on a time machine, or a memorab
 
 Matches repeat on the same month and day each year. Calendar events for past dates move to their next occurrence, and you can choose your viewing time when saving the event. Explanations may reveal plot details.
 
-The header offers Light, Dark, Halloween, and Christmas themes. Your choice is saved in the browser. Animated spotlights and Christmas snow have pause controls and respect reduced-motion preferences.
+The header offers Light, Dark, Halloween, and Winter themes. Your choice is saved in the browser. Animated spotlights and Winter snow have pause controls and respect reduced-motion preferences.
 
 ## Stack
 

@@ -16,7 +16,7 @@ const primaryColors = {
   light: "olive",
   dark: "olive",
   halloween: "orange",
-  christmas: "red",
+  winter: "red",
 } as const;
 const theme = createTheme({
   fontFamily: "DM Sans, sans-serif",
@@ -42,6 +42,7 @@ export function ThemeProvider({ children }: Readonly<{ children: ReactNode }>) {
   const [colorTheme, setColorTheme] = useState<ColorTheme>(() => {
     try {
       const saved = localStorage.getItem("reel-dates-theme");
+      if (saved === "christmas") return "winter";
       return colorThemes.find((option) => option.id === saved)?.id ?? "light";
     } catch {
       return "light";

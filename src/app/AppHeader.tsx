@@ -35,7 +35,7 @@ export function AppHeader({
             ?
           </span>
         </button>
-        {colorTheme === "christmas" && (
+        {colorTheme === "winter" && (
           <SnowToggle paused={snowPaused} onToggle={onToggleSnow} />
         )}
       </div>
