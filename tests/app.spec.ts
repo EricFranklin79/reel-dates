@@ -1,13 +1,13 @@
 import { test, expect } from "@playwright/test";
 import { readFile } from "node:fs/promises";
 
-test("Christmas snow pauses, respects reduced motion, and disappears in other themes", async ({
+test("Winter snow pauses, respects reduced motion, and disappears in other themes", async ({
   page,
 }) => {
   await page.emulateMedia({ reducedMotion: "no-preference" });
   await page.goto("/");
   await expect(page.locator(".snowfall")).toHaveCount(0);
-  await page.getByRole("button", { name: "Christmas", exact: true }).click();
+  await page.getByRole("button", { name: "Winter", exact: true }).click();
   await expect(page.locator(".snowfall")).toBeVisible();
   expect(
     await page
@@ -25,7 +25,7 @@ test("Christmas snow pauses, respects reduced motion, and disappears in other th
   await page.getByRole("button", { name: "Resume snow", exact: true }).click();
   expect((await states()).every((value) => value === "running")).toBe(true);
   await page.screenshot({
-    path: test.info().outputPath("christmas-snow.png"),
+    path: test.info().outputPath("winter-snow.png"),
     fullPage: true,
   });
   await page.emulateMedia({ reducedMotion: "reduce" });
@@ -52,7 +52,7 @@ test("color themes update page and drawer, persist, and fit mobile", async ({
     ["Light", "light", "light"],
     ["Dark", "dark", "dark"],
     ["Halloween", "halloween", "dark"],
-    ["Christmas", "christmas", "light"],
+    ["Winter", "winter", "light"],
   ]) {
     await picker.getByRole("button", { name: label, exact: true }).click();
     await expect(
@@ -83,7 +83,7 @@ test("color themes update page and drawer, persist, and fit mobile", async ({
   expect(new Set(backgrounds).size).toBe(4);
   await page.reload();
   await expect(
-    picker.getByRole("button", { name: "Christmas", exact: true }),
+    picker.getByRole("button", { name: "Winter", exact: true }),
   ).toHaveAttribute("aria-pressed", "true");
   await page.setViewportSize({ width: 390, height: 844 });
   for (const button of await picker.getByRole("button").all()) {

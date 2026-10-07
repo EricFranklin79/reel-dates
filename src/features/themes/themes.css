@@ -49,7 +49,7 @@
   --badge: #53354d;
   --error: #ffb4aa;
 }
-:root[data-theme="christmas"] {
+:root[data-theme="winter"] {
   color-scheme: light;
   --page: #f7f4eb;
   --surface: #fffdf7;

@@ -16,7 +16,7 @@ export function App() {
   const [snowPaused, setSnowPaused] = useState(false);
   return (
     <>
-      {colorTheme === "christmas" && <Snowfall paused={snowPaused} />}
+      {colorTheme === "winter" && <Snowfall paused={snowPaused} />}
       <AppHeader
         onOpenHelp={() => setInstructionsOpen(true)}
         snowPaused={snowPaused}
