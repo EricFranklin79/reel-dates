@@ -1,0 +1,234 @@
+.results {
+  scroll-margin-top: 24px;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+.result-status {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 10px 0 16px;
+}
+.movie-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 310px 1fr;
+  margin-bottom: 20px;
+}
+.movie-content {
+  padding: 28px 42px;
+}
+.movie-content .eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.movie-content h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  margin: 12px 0 8px;
+}
+.movie-meta {
+  font-size: 11px;
+  color: var(--muted);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.synopsis {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 14px 0 18px;
+  max-width: 540px;
+}
+.film-reference {
+  margin: 10px 0 16px;
+  font-size: 11px;
+  color: var(--accent);
+}
+.film-reference a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+.connection {
+  background: var(--subtle);
+  border: 1px solid var(--border);
+  padding: 16px 23px;
+  border-radius: 7px;
+}
+.connection-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.connection-heading h4 {
+  font-size: 11px;
+  margin: 0;
+  font-weight: 600;
+}
+.connection-icon {
+  font-size: 18px;
+  color: var(--accent);
+}
+.badge {
+  margin-left: auto;
+  font-size: 9px;
+  letter-spacing: 0.4px;
+  background: var(--badge);
+  color: var(--accent);
+  padding: 4px 9px;
+  border-radius: 4px;
+}
+.connection > strong {
+  font-size: 12px;
+  font-weight: 600;
+}
+.connection p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 8px 0 14px;
+}
+.connection p.story-year {
+  font-size: 10px;
+  color: var(--muted);
+}
+.connection a {
+  font-size: 10px;
+  text-underline-offset: 4px;
+  color: var(--accent);
+}
+.connection a span {
+  margin-left: 6px;
+}
+.empty-state {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  min-height: 190px;
+  padding: 35px 40px;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background: var(--subtle);
+}
+.empty-icon {
+  font-size: 60px;
+  color: #a4aa90;
+}
+.empty-state h3 {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.6px;
+  margin: 0 0 10px;
+  font-size: 23px;
+}
+.empty-state p {
+  max-width: 670px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 0;
+}
+@media (max-width: 950px) {
+  .movie-card {
+    grid-template-columns: 260px 1fr;
+  }
+  .movie-content {
+    padding: 24px 26px;
+  }
+  .movie-content h3 {
+    font-size: 27px;
+  }
+  .movie-meta {
+    gap: 7px;
+  }
+}
+@media (max-width: 620px) {
+  .section-top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .results {
+    padding-top: 20px;
+  }
+  .result-status {
+    font-size: 10px;
+  }
+  .movie-card {
+    grid-template-columns: 1fr;
+  }
+  .movie-content {
+    padding: 22px 23px;
+  }
+  .movie-content h3 {
+    font-size: 28px;
+  }
+  .connection {
+    padding: 17px;
+  }
+  .movie-meta {
+    font-size: 10px;
+  }
+  .empty-state {
+    padding: 26px;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .empty-icon {
+    font-size: 34px;
+  }
+  .empty-state h3 {
+    font-size: 19px;
+  }
+  .empty-state p {
+    font-size: 12px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .movie-card {
+    animation: appear 0.25s ease-out;
+  }
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+.movie-card {
+  display: grid;
+}
+.empty-state {
+  flex-direction: row;
+}
+.badge {
+  text-transform: none;
+  font-weight: 500;
+}
+.connection .evidence-label {
+  font-size: 10px;
+  color: var(--accent);
+  margin: 10px 0;
+}
+.compilation-link {
+  display: block;
+  margin-top: 13px;
+}

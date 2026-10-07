@@ -1,0 +1,57 @@
+.snow-toggle {
+  color: var(--accent);
+}
+.snowfall {
+  display: none;
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+
+  mask-image: linear-gradient(
+    to right,
+    #000,
+    #000 12%,
+    #0008 28% 72%,
+    #000 88%
+  );
+}
+.snowfall span {
+  position: absolute;
+  top: -12px;
+  left: var(--snow-x);
+  width: var(--snow-size);
+  height: var(--snow-size);
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #9baebb;
+  box-shadow:
+    0 1px 4px #56748770,
+    0 0 5px #fff;
+  opacity: 0.95;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .snowfall {
+    display: block;
+  }
+  .snowfall span {
+    animation: snowfall var(--snow-duration) var(--snow-delay) linear infinite;
+  }
+  .snowfall[data-paused="true"] span {
+    animation-play-state: paused;
+  }
+  @keyframes snowfall {
+    from {
+      transform: translate3d(0, -12px, 0);
+    }
+    to {
+      transform: translate3d(var(--snow-drift), calc(100dvh + 24px), 0);
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snow-toggle {
+    display: none;
+  }
+}

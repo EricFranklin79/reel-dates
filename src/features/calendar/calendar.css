@@ -1,0 +1,50 @@
+.movie-night {
+  padding: 24px 32px;
+  margin: 0 0 24px;
+  background: var(--subtle);
+  border-radius: 9px;
+}
+.movie-night h2 {
+  font-size: 24px;
+  margin: 8px 0 18px;
+}
+.movie-night-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+}
+.movie-night h3 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--accent);
+}
+.movie-night p {
+  margin: 0;
+  max-width: 480px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.movie-night p strong {
+  font-weight: 500;
+}
+.calendar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.calendar-links a {
+  color: var(--accent);
+  background: var(--surface);
+  border-color: var(--border);
+}
+@media (max-width: 620px) {
+  .movie-night {
+    padding: 22px;
+  }
+  .movie-night-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}

@@ -1,0 +1,235 @@
+.poster {
+  position: relative;
+  min-height: 380px;
+  overflow: hidden;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #3b5260;
+  color: #fff8dd;
+}
+.poster:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    #fff1 3px,
+    transparent 4px
+  );
+  pointer-events: none;
+  opacity: 0.25;
+}
+.poster-kicker {
+  font-size: 7px;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 1;
+}
+.poster-motif {
+  font-family: "Manrope", sans-serif;
+  white-space: pre-line;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  z-index: 1;
+  margin-top: auto;
+  margin-bottom: 25px;
+}
+.poster-bottom {
+  border-top: 1px solid #ffffff50;
+  padding-top: 12px;
+  font-size: 9px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  z-index: 1;
+}
+.poster-graphic {
+  position: absolute;
+  inset: 55px 0 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poster-graphic span {
+  position: absolute;
+  display: block;
+}
+.future {
+  background: linear-gradient(140deg, #102c40, #325661 65%, #b5824b);
+}
+.future .poster-graphic span {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #eed3a1;
+  transform: rotate(-25deg);
+  box-shadow: 0 0 20px #ffe9b320;
+}
+.future .poster-graphic span:nth-child(2) {
+  width: 110px;
+  height: 110px;
+  transform: rotate(-10deg);
+}
+.future .poster-graphic span:nth-child(3) {
+  width: 70px;
+  height: 70px;
+  transform: rotate(5deg);
+  background: #ead49a20;
+}
+.groundhog {
+  background: #788575;
+  color: #faf3d7;
+}
+.groundhog .poster-graphic span {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #f8edbf;
+  border-radius: 50%;
+}
+.groundhog .poster-graphic span:nth-child(2) {
+  width: 120px;
+  height: 120px;
+}
+.groundhog .poster-graphic span:nth-child(3) {
+  width: 3px;
+  height: 63px;
+  background: #f8edbf;
+  transform: rotate(35deg);
+  transform-origin: bottom;
+  top: 35px;
+}
+.congeniality {
+  background: #855f68;
+}
+.congeniality .poster-graphic span:first-child {
+  width: 140px;
+  height: 140px;
+  transform: rotate(45deg);
+  background: #e9baa3;
+}
+.congeniality .poster-graphic span:nth-child(2) {
+  width: 108px;
+  height: 108px;
+  transform: rotate(45deg);
+  border: 1px solid #855f68;
+}
+.congeniality .poster-graphic span:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #855f68;
+}
+.independence {
+  background: linear-gradient(#243c38, #62726a);
+}
+.independence .poster-graphic span:first-child {
+  width: 220px;
+  height: 65px;
+  border-radius: 50%;
+  background: #b9b899;
+  box-shadow: 0 12px 30px #131e24;
+}
+.independence .poster-graphic span:nth-child(2) {
+  width: 2px;
+  height: 140px;
+  background: #ddd9b2;
+  top: 105px;
+  box-shadow: 0 0 25px 10px #eee5bd30;
+}
+.halloween {
+  background: #242722;
+  color: #eb9b4c;
+}
+.halloween .poster-graphic span:first-child {
+  width: 160px;
+  height: 140px;
+  border-radius: 45%;
+  background: #c47734;
+}
+.halloween .poster-graphic span:nth-child(2) {
+  width: 120px;
+  height: 115px;
+  border-radius: 45%;
+  border-left: 2px solid #302719;
+  border-right: 2px solid #302719;
+}
+.halloween .poster-graphic span:nth-child(3) {
+  width: 80px;
+  height: 25px;
+  background: #242722;
+  clip-path: polygon(0 0, 30% 50%, 50% 0, 70% 50%, 100% 0, 85% 100%, 15% 100%);
+}
+.vendetta {
+  background: #783b31;
+}
+.vendetta .poster-graphic span:first-child {
+  width: 140px;
+  height: 140px;
+  border: 1px solid #ebc4a3;
+  border-radius: 50%;
+}
+.vendetta .poster-graphic span:nth-child(2) {
+  width: 85px;
+  height: 100px;
+  background: #ebc4a3;
+  clip-path: polygon(0 0, 50% 75%, 100% 0, 100% 30%, 50% 100%, 0 30%);
+}
+.diehard {
+  background: #324756;
+}
+.diehard .poster-graphic span {
+  height: 170px;
+  width: 70px;
+  background: repeating-linear-gradient(0deg, #c3b995 0 2px, #233540 2px 15px);
+  border: 3px solid #1b2f38;
+  bottom: 0;
+}
+.diehard .poster-graphic span:nth-child(2) {
+  width: 50px;
+  height: 110px;
+  left: 50px;
+}
+.diehard .poster-graphic span:nth-child(3) {
+  width: 50px;
+  height: 90px;
+  right: 50px;
+}
+.homealone {
+  background: #784e3c;
+}
+.homealone .poster-graphic span:first-child {
+  width: 150px;
+  height: 150px;
+  background: #b9ad81;
+  clip-path: polygon(
+    50% 0,
+    100% 40%,
+    85% 40%,
+    85% 100%,
+    15% 100%,
+    15% 40%,
+    0 40%
+  );
+}
+.homealone .poster-graphic span:nth-child(2) {
+  width: 25px;
+  height: 55px;
+  background: #784e3c;
+  top: 125px;
+}
+@media (max-width: 620px) {
+  .poster {
+    min-height: 300px;
+  }
+  .poster-graphic {
+    inset: 35px 0 100px;
+  }
+  .poster-motif {
+    font-size: 32px;
+  }
+}

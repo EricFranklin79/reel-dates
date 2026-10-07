@@ -1,0 +1,13 @@
+@layer theme, base, mantine, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "./app/global.css";
+@import "./features/themes/themes.css";
+@import "./app/layout.css";
+@import "./features/search/search.css";
+@import "./features/movies/posters.css";
+@import "./features/movies/movies.css";
+@import "./features/calendar/calendar.css";
+@import "./features/help/help.css";
+@import "./features/themes/spotlights.css";
+@import "./features/themes/snow.css";

@@ -1,0 +1,128 @@
+.spotlights {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+
+  mask-image:
+    linear-gradient(
+      to right,
+      transparent,
+      #000 4% 12%,
+      transparent 22% 78%,
+      #000 88% 96%,
+      transparent
+    ),
+    linear-gradient(transparent, #000 12%);
+  mask-composite: intersect;
+}
+.spotlight {
+  position: absolute;
+  bottom: 55px;
+  width: 180px;
+  height: 490px;
+  transform-origin: 50% 100%;
+  opacity: 0.7;
+
+  mask-image: linear-gradient(transparent, #000 35%);
+}
+.spotlight::before,
+.spotlight::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background: linear-gradient(#d6bb7c28, #d6bb7c65 70%, #fff3c9cc);
+}
+.spotlight::after {
+  clip-path: polygon(38% 0, 62% 0, 50% 100%);
+  background: #fffaf150;
+}
+.spotlight-left {
+  left: calc(6% - 90px);
+  transform: rotate(12deg);
+}
+.spotlight-left-secondary {
+  left: calc(6% - 90px);
+  transform: rotate(-16deg);
+  height: 420px;
+  opacity: 0.45;
+}
+.spotlight-right {
+  right: calc(6% - 90px);
+  transform: rotate(-12deg);
+}
+.spotlight-right-secondary {
+  right: calc(6% - 90px);
+  transform: rotate(16deg);
+  height: 420px;
+  opacity: 0.45;
+}
+.spotlight-fixture {
+  position: absolute;
+  bottom: 23px;
+  color: var(--accent);
+}
+.fixture-left {
+  left: calc(6% - 22px);
+}
+.fixture-right {
+  right: calc(6% - 22px);
+}
+.spotlight-toggle {
+  margin-top: 8px;
+  padding: 4px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 10px;
+}
+.spotlight-toggle span {
+  margin-right: 3px;
+}
+@media (max-width: 620px) {
+  .spotlights,
+  .spotlight-toggle {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .spotlight-left {
+    animation: spotlight-sweep 20s ease-in-out infinite alternate;
+  }
+  .spotlight-left-secondary {
+    animation: spotlight-sweep 26s -9s ease-in-out infinite alternate-reverse;
+  }
+  .spotlight-right {
+    animation: spotlight-sweep-right 23s -5s ease-in-out infinite alternate;
+  }
+  .spotlight-right-secondary {
+    animation: spotlight-sweep-right 29s -12s ease-in-out infinite
+      alternate-reverse;
+  }
+  .spotlights[data-paused="true"] .spotlight {
+    animation-play-state: paused;
+  }
+  @keyframes spotlight-sweep {
+    from {
+      transform: rotate(-18deg);
+    }
+    to {
+      transform: rotate(22deg);
+    }
+  }
+  @keyframes spotlight-sweep-right {
+    from {
+      transform: rotate(18deg);
+    }
+    to {
+      transform: rotate(-22deg);
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spotlight-toggle {
+    display: none;
+  }
+}

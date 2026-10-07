@@ -1,0 +1,381 @@
+{
+  "checkedOn": "2026-10-06",
+  "filmCount": 339,
+  "coverage": {
+    "total": 366,
+    "covered": 366,
+    "supported": 366,
+    "captionSupported": 0,
+    "calendarOnly": 0,
+    "missing": []
+  },
+  "note": "Verification uses material inside the film: visible dates, dialogue, screenplays, or story references. Display metadata never establishes a date match. Replacements can reuse a film for multiple dates; each connection has its own evidence.",
+  "pending": [],
+  "lastPass": {
+    "reviewedConnections": 111,
+    "retainedPicks": 66,
+    "replacedPicks": 45
+  },
+  "replacements": [
+    {
+      "date": "01-16",
+      "previousTitle": "The Public Enemy (1931)",
+      "title": "Argo",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=argo",
+      "explanation": "A television report inside the film announces Wednesday, January 16, 1980 as the 74th day of the Iran hostage crisis."
+    },
+    {
+      "date": "01-23",
+      "previousTitle": "I'm Not There",
+      "title": "Kramer vs. Kramer",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=kramer-vs-kramer",
+      "explanation": "The custody order takes effect Monday, January 23, and specifies Ted’s support payments and visitation rights."
+    },
+    {
+      "date": "01-27",
+      "previousTitle": "X-Men: Days of Future Past",
+      "title": "Kidnapping Inc.",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=kidnapping-inc",
+      "explanation": "The kidnappers’ ransom video explicitly gives January 27, 2017 as the date of their demand for Benjamin’s release."
+    },
+    {
+      "date": "02-04",
+      "previousTitle": "Patty Hearst",
+      "title": "The Social Network",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=social-network-the",
+      "explanation": "The film labels the scene in which Mark adds relationship status to Facebook and launches the site February 4, 2004."
+    },
+    {
+      "date": "02-14",
+      "previousTitle": "Eternal Sunshine of the Spotless Mind",
+      "title": "Demolition Man",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=demolition-man",
+      "explanation": "A computerized medical announcement gives a deceased person’s birth date as February 14, 1967. This is dialogue inside the film, not the actor’s birthday."
+    },
+    {
+      "date": "03-03",
+      "previousTitle": "The Miracle Worker",
+      "title": "Samurai Assassin",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=samurai-assassin",
+      "explanation": "The conspirators schedule their mission for March 3, 1860, during the Peach Observance at Edo Castle."
+    },
+    {
+      "date": "03-05",
+      "previousTitle": "Vertigo",
+      "title": "Chicago",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=chicago",
+      "explanation": "Mama Morton tells Velma that Billy Flynn has scheduled her trial for March 5."
+    },
+    {
+      "date": "03-27",
+      "previousTitle": "Planet of the Apes",
+      "title": "Dial M for Murder",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=dial-m-for-murder",
+      "explanation": "The inspector says Tony has been living on the stolen money since March 27."
+    },
+    {
+      "date": "04-12",
+      "previousTitle": "The Fan",
+      "title": "Hidden Figures",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=hidden-figures",
+      "explanation": "The film’s April 12, 1961 date card accompanies the television announcement of Yuri Gagarin’s spaceflight."
+    },
+    {
+      "date": "04-14",
+      "previousTitle": "The Birth of a Nation",
+      "title": "Titanic",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=titanic",
+      "explanation": "The drawing recovered from the wreck bears April 14, 1912, connecting Rose’s portrait and the diamond to the night of the sinking."
+    },
+    {
+      "date": "04-20",
+      "previousTitle": "Clerks",
+      "title": "The Fog",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-fog",
+      "explanation": "The priest reads an April 20 diary entry describing the conspirators’ plan to kill Blake and his companions."
+    },
+    {
+      "date": "04-21",
+      "previousTitle": "Koyaanisqatsi",
+      "title": "Amarcord",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=amarcord",
+      "explanation": "A speaker explicitly announces April 21 as the day of the celebration of Rome’s founding."
+    },
+    {
+      "date": "04-29",
+      "previousTitle": "The Godfather",
+      "title": "Hot Fuzz",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=hot-fuzz",
+      "explanation": "Angel’s arrest statement identifies April 29 as the date of George Merchant’s murder."
+    },
+    {
+      "date": "04-30",
+      "previousTitle": "Downfall",
+      "title": "Chungking Express",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=chungking-express",
+      "explanation": "A supermarket clerk tells the officer it is April 30 while they argue about pineapple cans expiring on May 1."
+    },
+    {
+      "date": "05-27",
+      "previousTitle": "Thunderball",
+      "title": "V for Vendetta",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=v-for-vendetta",
+      "explanation": "Delia’s diary entry for May 27 describes Commander Prothero visiting the laboratory with Father Lilliman."
+    },
+    {
+      "date": "05-29",
+      "previousTitle": "Mary, Mary, Bloody Mary",
+      "title": "Suicide Club",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=suicide-club-2001",
+      "explanation": "The film’s May 29 date card introduces the sequence in which Mitsuko is struck by her boyfriend as he jumps from a rooftop."
+    },
+    {
+      "date": "05-31",
+      "previousTitle": "Journey to the Center of the Earth",
+      "title": "Suicide Club",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=suicide-club-2001",
+      "explanation": "A May 31 date card precedes a news report about the Suicide Club and its arrests."
+    },
+    {
+      "date": "06-04",
+      "previousTitle": "Basic Instinct",
+      "title": "Logan Lucky",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=logan-lucky",
+      "explanation": "Jimmy names June 4 as the initial target date for the racetrack robbery, citing the small turnout and minimal security expected for an auto show. The plan later changes."
+    },
+    {
+      "date": "06-05",
+      "previousTitle": "Ferris Bueller's Day Off",
+      "title": "Brokeback Mountain",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=brokeback-mountain",
+      "explanation": "Alma Jr. tells Ennis that her wedding to Kurt will be June 5 at the Methodist church."
+    },
+    {
+      "date": "06-08",
+      "previousTitle": "Office Space",
+      "title": "Singin' in the Rain",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=singin-in-the-rain",
+      "explanation": "Lina cites her contract dated June 8, 1925 while asserting control over the studio’s publicity for her career."
+    },
+    {
+      "date": "06-24",
+      "previousTitle": "Midsommar",
+      "title": "Beyond the Law",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=beyond-the-law",
+      "explanation": "Conroy Price identifies Dan Saxon’s original name and gives his birth date as June 24, 1966."
+    },
+    {
+      "date": "07-09",
+      "previousTitle": "You Only Live Twice",
+      "title": "Double Indemnity",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=double-indemnity",
+      "explanation": "An insurance investigation report says Nino Zachetti visited Mrs. Dietrichson on July 9 and the following nights."
+    },
+    {
+      "date": "07-14",
+      "previousTitle": "Roman Holiday",
+      "title": "The Day of the Jackal",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=day-of-the-jackal-the",
+      "explanation": "Special Branch reports that the passport application using Paul Oliver Duggan’s identity was submitted July 14."
+    },
+    {
+      "date": "07-20",
+      "previousTitle": "First Man",
+      "title": "Apollo 13",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=apollo-13",
+      "explanation": "The opening television broadcast announces Neil Armstrong standing on the Moon on July 20, 1969, as Jim Lovell and friends watch."
+    },
+    {
+      "date": "07-27",
+      "previousTitle": "High Noon",
+      "title": "K-PAX",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=k-pax",
+      "explanation": "Prot says he will return to K-PAX on July 27; his psychiatrist discusses the approaching date and the danger it might pose."
+    },
+    {
+      "date": "07-31",
+      "previousTitle": "Harry Potter and the Philosopher's Stone",
+      "title": "The Caine Mutiny",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-caine-mutiny",
+      "explanation": "The court-martial charge dates Maryk’s relief of Captain Queeg July 31, 1944, and witnesses discuss that day."
+    },
+    {
+      "date": "08-05",
+      "previousTitle": "Do the Right Thing",
+      "title": "The Omega Man",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=omega-man-the",
+      "explanation": "Neville’s journal recording 958 is dated August 5, 1977 and describes finding another member of Matthias’s group dead of plague."
+    },
+    {
+      "date": "08-06",
+      "previousTitle": "Hiroshima mon amour",
+      "title": "Godzilla (2014)",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=godzilla-2014",
+      "explanation": "Dr. Serizawa explains that his father’s watch stopped at 8:15 on August 6, 1945 in Hiroshima."
+    },
+    {
+      "date": "08-14",
+      "previousTitle": "Captain America: The Winter Soldier",
+      "title": "The Day of the Jackal",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=day-of-the-jackal-the",
+      "explanation": "The top-secret report about the assassination threat is dated August 14, 1963 at 08:00 and addressed to the Minister of the Interior."
+    },
+    {
+      "date": "08-15",
+      "previousTitle": "Who Framed Roger Rabbit",
+      "title": "3 Idiots",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=3-idiots",
+      "explanation": "During the conversation about Pia’s late mother’s watch, Rancho invokes August 15 as Independence Day. The line explicitly names the date; it does not date the entire story."
+    },
+    {
+      "date": "09-02",
+      "previousTitle": "Gone with the Wind",
+      "title": "A Few Good Men",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=a-few-good-men",
+      "explanation": "Cross-examination refers to the switch log for the week of September 2 and Downey’s recorded guard-post assignment."
+    },
+    {
+      "date": "09-04",
+      "previousTitle": "Stand by Me",
+      "title": "Watchmen",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=watchmen",
+      "explanation": "Dr. Manhattan’s narration places a costumed gathering and his attraction to Laurie on September 4, 1970."
+    },
+    {
+      "date": "09-10",
+      "previousTitle": "Saw",
+      "title": "The Trial of the Chicago 7",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-trial-of-the-chicago-7",
+      "explanation": "Ramsey Clark is asked about a September 10 phone call from President Johnson during his testimony."
+    },
+    {
+      "date": "09-13",
+      "previousTitle": "In the Heat of the Night",
+      "title": "Ringu",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=ringu",
+      "explanation": "An on-screen date marks Monday, September 13 during Reiko’s investigation of the cursed videotape at Izu Pacific Land."
+    },
+    {
+      "date": "09-22",
+      "previousTitle": "The Shawshank Redemption",
+      "title": "Network",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=network",
+      "explanation": "The opening narration dates Howard Beale’s firing September 22, 1975, effective two weeks later."
+    },
+    {
+      "date": "10-17",
+      "previousTitle": "Avengers: Endgame",
+      "title": "Scanners III: The Takeover",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=scanners-iii-the-takeover",
+      "explanation": "Dr. Elton’s recorded laboratory report is dated October 17, 1990 and discusses the experimental EPH-3 drug."
+    },
+    {
+      "date": "10-22",
+      "previousTitle": "Spider-Man",
+      "title": "Frequency",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=frequency",
+      "explanation": "John tells his father that Julia was murdered on October 22, 1969 in the changed timeline, making that date central to their effort to save her."
+    },
+    {
+      "date": "10-27",
+      "previousTitle": "E.T. the Extra-Terrestrial",
+      "title": "Back to the Future Part III",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=back-to-the-future-part-iii",
+      "explanation": "Doc instructs Marty to set the DeLorean’s destination to October 27, 1985 at 11:00 a.m. before the train-powered time jump."
+    },
+    {
+      "date": "11-11",
+      "previousTitle": "Batman",
+      "title": "Suspiria",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=suspiria-2018",
+      "explanation": "The account of Anka’s fate dates the camp’s deadly outdoor census November 11, 1943."
+    },
+    {
+      "date": "11-24",
+      "previousTitle": "The Blue Angel",
+      "title": "Drive My Car",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=drive-my-car",
+      "explanation": "Police question Takatsuki about the fight in Shintenchi Park on Sunday, November 24, after the victim dies."
+    },
+    {
+      "date": "12-01",
+      "previousTitle": "The Hunt",
+      "title": "The Social Network",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=social-network-the",
+      "explanation": "An email displayed in the deposition sequence is dated December 1, 2003 and explains why Mark missed the Winklevosses’ calls."
+    },
+    {
+      "date": "12-08",
+      "previousTitle": "20,000 Leagues Under the Sea",
+      "title": "Crawlspace",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=crawlspace-1986",
+      "explanation": "Karl Gunther’s diary narration includes a December 8, 1973 entry describing his history of killing patients."
+    },
+    {
+      "date": "12-10",
+      "previousTitle": "A Beautiful Mind",
+      "title": "The Social Network",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=social-network-the",
+      "explanation": "The deposition sequence presents Mark’s December 10, 2003 email postponing a meeting because of classes and work."
+    },
+    {
+      "date": "12-20",
+      "previousTitle": "4 Months, 3 Weeks and 2 Days",
+      "title": "Reversal of Fortune",
+      "reason": "The original date reference could not be confirmed; the replacement has an explicit in-film date.",
+      "source": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=reversal-of-fortune",
+      "explanation": "Claus dates Sunny’s second coma December 20, 1980 while recounting their argument that afternoon."
+    },
+    {
+      "date": "12-23",
+      "previousTitle": "Home Alone",
+      "title": "Home Alone 2: Lost in New York",
+      "reason": "The excerpt is from the sequel.",
+      "source": "https://www.youtube.com/watch?v=AXNlLiNHKLc&t=1974s",
+      "explanation": "Kevin’s Plaza Hotel bill lists his arrival as 12/23/92, or December 23, 1992. This prop belongs to the sequel set in New York."
+    }
+  ]
+}
