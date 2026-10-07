@@ -1,6 +1,7 @@
 import js from "@eslint/js";
 import babelParser from "@babel/eslint-parser";
 import sonarjs from "eslint-plugin-sonarjs";
+import reactHooks from "eslint-plugin-react-hooks";
 
 export default [
   {
@@ -15,7 +16,7 @@ export default [
   { ...js.configs.recommended, files: ["**/*.js"] },
   {
     files: ["**/*.{ts,tsx}"],
-    plugins: { sonarjs },
+    plugins: { sonarjs, "react-hooks": reactHooks },
     languageOptions: {
       parser: babelParser,
       parserOptions: {
@@ -28,6 +29,9 @@ export default [
         },
       },
     },
-    rules: sonarjs.configs.recommended.rules,
+    rules: {
+      ...sonarjs.configs.recommended.rules,
+      ...reactHooks.configs.flat["recommended-latest"].rules,
+    },
   },
 ];
